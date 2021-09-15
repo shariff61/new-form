@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+       <fieldset>
+           <legend>Name of the user</legend>
+           First name
+           <input type="text">
+           Middle name
+           <input type="text">
+           Last Name
+           <input type="text">
+       </fieldset>
+       <fieldset>
+           <legend>Source destination and train selection</legend>
+           <label for="source station">Source Station</label>
+           <select name="Source Station" id="source station" form="">
+               <option value="hawrah">Howrah</option>
+               <option value="cittagong road">Chittagong Road</option>
+               <option value="comilla railway">railway</option>
+           </select>
+           <label for="destination station">Destination Station</label>
+           <select name="Destination Station" id="destination station" form="">
+               <option value="sialkot">Sialkot</option>
+               <option value="chittagong coxs bazar">Cox's bazar</option>
+               <option value="dhaka road">dhaka </option>
+
+           </select>
+           <label for="Train selection">Train Selection</label>
+           <select name="Train Selection" id="Train selection" form="">
+               <option value="Howrah-siakot-shatabdi-express">Howrah-siakot-shatabdi-express</option>
+               <option value="chittagong road-cox's bazar-">chittagong road-cox's bazar-sonar bangla express</option>
+               <option value="comilla railway">karnaphuli express</option>
+               <option value="chittagong-dhaka road">mohanagar pravati</option>
+           </select>
+       </fieldset>
+       <fieldset>
+           <legend>passenger details</legend>
+           <label for="Adults">Adults</label>
+           <select name="Adult" id="Adults" form="">
+               <option value="1">1</option>
+               <option value="adult">2</option>
+               <option value="adults">3</option>
+           </select>
+           <label for="child">Child</label>
+           <select name="Child" id="child" form="">
+               <option value="child">1</option>
+               <option value="child">2</option>
+               <option value="child">3</option>
+           </select><br><br>
+           <p>Choose Your Preffred Class of Travel</p>
+           <label for="AC 2 tier Cum Ac fast">AC 2 tier Cum Ac fast</label>
+           <input type="radio" name="travel" id="AC 2 tier Cum Ac fast">
+           <label for="Ac 3 Tier">Ac 3 Tier</label>
+           <input type="radio" name="travel" id="Ac 3 Tier">
+           <label for="Sleeper">Sleeper</label>
+           <input type="radio" name="travel" id="Sleeper">
+           <label for="Chair car">Chair Car</label>
+           <input type="radio" name="travel" id="Chair car">
+       </fieldset>
+       <fieldset>
+           <legend>Food Option</legend>
+           <label for="Vegeterian">Vegeterian</label>
+           <input type="checkbox" name="" id="Vegeterian">
+           <label for="Non vegeterian">Non Vegeterian</label>
+           <input type="checkbox" name="" id="Non vegeterian">
+       </fieldset>
+       <div>
+          <button type="Submit">Submit</button>
+          <button type="reset">reset</button>
+       </div>
+    </form>
+</body>
+</html>
